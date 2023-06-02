@@ -1,0 +1,49 @@
+- Chain
+  + name
+  + chainID     PK
+  + rpcURL
+- Trade contract
+  + id
+  + contract
+  + chainID
+- Token
+  + id          PK
+  + name
+  + symbol
+  + decimal
+  + contract    
+  + logo
+  + chainID
+- Token IOU
+  + id
+  + tokenParentID
+  + tokenID
+  + creator
+  + circulatingSupply
+  + totalCollateral
+  + deadline
+  + isPublicMint
+- OrderStatus
+  + id
+  + name
+- OrderBook
+  + id
+  + maker
+  + tokenIn
+  + tokenOut
+  + tokenInAmount
+  + tokenOutAmount
+  + tokenInAmountSold
+  + createAt
+  + tradeContractID
+  + orderStatusID
+- Order History
+  + id
+  + orderID
+  + taker
+  + amount
+  + orderAt
+- LastBlockUpdated
+  + tradeContractID
+  + type
+  + lastActiveRecord

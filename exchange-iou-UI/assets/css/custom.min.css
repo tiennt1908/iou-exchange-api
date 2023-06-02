@@ -1,0 +1,28 @@
+/*# sourceMappingURL=custom.min.css.map */
+.text-nowrap {
+  white-space: nowrap;
+}
+.text-center {
+  text-align: center;
+}
+.order-sell-row {
+  cursor: pointer;
+}
+.order-sell-row:hover {
+  background: #f7f8f9;
+}
+.w-12r {
+  width: 12rem;
+}
+.mw-200px {
+  max-width: 200px;
+}
+.w-200px {
+  width: 200px;
+}
+.w-150px {
+  width: 150px;
+}
+.hover-blue-100:hover {
+  background: #f3f6f9;
+}
